@@ -6,12 +6,15 @@ export class Q7 extends Component {
     e.preventDefault();
     console.log(this.props.values.bmwCount);
     // Validation
-    if (this.props.values.bmwCount !== '' && 0 <= this.props.values.bmwCount) {
+    if (this.props.values.bmwCount === '') {
+      alert('Invalid Input: Enter the number of BMWs you drove');
+    } else if (this.props.values.bmwCount > 0) {
       // Continue
       this.props.nextQuestion();
       console.log(this.props.values.bmwCount);
     } else {
-      alert('Invalid Input: Enter the number of BMWs you drove');
+      // End Survey
+      this.props.endSurvey();
     }
   };
 

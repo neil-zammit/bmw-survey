@@ -178,6 +178,7 @@ class Survey extends React.Component {
           <Q7
             nextQuestion={this.nextQuestion}
             handleInputChange={this.handleInputChange}
+            endSurvey={this.endSurvey}
             values={values}
           />
         );
