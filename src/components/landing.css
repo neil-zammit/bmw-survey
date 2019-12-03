@@ -1,0 +1,16 @@
+.landing-text {
+  margin-bottom: 2rem;
+}
+.main-btn {
+  margin: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #009ada;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.main-btn:hover {
+  color: #fff;
+  background-color: #0faaec;
+}

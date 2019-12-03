@@ -1,0 +1,45 @@
+.question-container,
+.message-container {
+  margin-top: 100px;
+}
+
+.form-container {
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #999;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+input:hover {
+  border-bottom: 2px solid #009ada;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #009ada;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #0faaec;
+}
+
+.model-input {
+  margin: 2rem;
+}
